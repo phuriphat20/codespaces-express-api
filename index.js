@@ -57,6 +57,7 @@ app.get('/api/products/:id',(req,res)=>{
       res.send(result);
     }
   });
+  
 })
  
 app.listen(port, () => {
